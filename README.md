@@ -32,7 +32,4 @@ From `hard_metrics_all_methods.csv`:
 - DirectSpectral(KMeans): Sil 0.1526, NMI 0.2194, ARI 0.1185, Purity 0.3943
 - **CVAE(beta)+KMeans:** Sil **0.3434**, NMI **0.4197**, ARI **0.1697**, Purity **0.4471**
 
-## Repository Structure (suggested)
-
-You can keep it simple or refactor; this layout matches the project requirement:
 
