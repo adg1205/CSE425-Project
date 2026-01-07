@@ -11,6 +11,27 @@ Implemented tasks:
 - **Medium:** log-mel spectrogram + lyrics embeddings → Hybrid Conv-VAE → clustering with KMeans / Agglomerative / DBSCAN + baseline.
 - **Hard:** multi-modal **CVAE(beta)** conditioned on genre + clustering + comparison vs PCA, AE, direct spectral baseline + detailed metrics and plots.
 
+The following structure has been used in this repository:
+CSE425-Project/
+      Dataset/
+            Drive Link
+            audio_to_lyrics_conversion.py
+      Easy Task/
+            Latent_Visualisation/
+            clustering_metrics.csv
+            easy_task.py
+      Hard Task/
+            Latent_Visualisation/
+            hard_metrics_all_methods.csv
+            hard_task.py
+      Medium Task/
+            Latent_Visualisation/
+            clustering_metrics_medium_final.csv
+            medium_task.py
+      README.md
+      requirements.txt
+            
+
 ## Results (from saved CSVs)
 
 ### Easy task (MFCC)
