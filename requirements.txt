@@ -1,0 +1,30 @@
+# System dependency (needed for Whisper/audio decoding)
+!sudo apt-get update -qq
+!sudo apt-get install -y ffmpeg -qq
+
+# Core
+numpy
+pandas
+
+# Deep learning
+torch
+
+# Audio I/O + features
+librosa
+soundfile
+
+# Whisper speech-to-text
+openai-whisper
+
+# Text embeddings
+sentence-transformers
+
+# Clustering + metrics + PCA
+scikit-learn
+
+# Dimensionality reduction / visualization
+umap-learn
+matplotlib
+
+# Progress bars
+tqdm
