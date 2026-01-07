@@ -12,7 +12,6 @@ Implemented tasks:
 - **Hard:** multi-modal **CVAE(beta)** conditioned on genre + clustering + comparison vs PCA, AE, direct spectral baseline + detailed metrics and plots.
 
 ## Repository Structure
-
 ```text
 CSE425-Project/
       Dataset/
@@ -32,7 +31,7 @@ CSE425-Project/
             medium_task.py
       README.md
       requirements.txt
-
+```
 
 ## Results (from saved CSVs)
 
