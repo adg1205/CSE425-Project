@@ -20,16 +20,16 @@ From `clustering_metrics.csv`:
 
 ### Medium task (audio+lyrics)
 From `clustering_metrics_medium_final.csv`:
-- Baseline PCA(16)+KMeans: Silhouette **0.1003**, DB **2.6115**, ARI **0.0795**
-- VAE(latent=16)+KMeans: Silhouette **0.3420**, DB **1.0133**, ARI **0.1582**
-- VAE(latent=16)+Agglomerative: Silhouette **0.3462**, DB **0.9252**, ARI **0.1426**
-- VAE(latent=16)+DBSCAN: Silhouette **0.0828**, DB **2.0917**, ARI **0.0904** (with noise points)
+- Baseline PCA(16)+KMeans: Silhouette **0.1003**, Davies_Bouldin **2.6115**, ARI **0.0795**
+- VAE(latent=16)+KMeans: Silhouette **0.3598**, Davies_Bouldin **0.9368**, ARI **0.1706**
+- VAE(latent=16)+Agglomerative: Silhouette **0.3644**, Davies_Bouldin **0.8889**, ARI **0.1515**
+- VAE(latent=16)+DBSCAN: Silhouette **0.1129**, DB **1.8234**, ARI **0.0410** (with noise points)
 
 ### Hard task (CVAE(beta))
 From `hard_metrics_all_methods.csv`:
-- PCA+KMeans: Sil **0.1003**, NMI **0.1171**, ARI **0.0795**, Purity **0.3114**
-- AE+KMeans: Sil **0.1292**, NMI **0.1991**, ARI **0.1304**, Purity **0.3814**
+- PCA+KMeans: Silhouette **0.1003**, NMI **0.1171**, ARI **0.0795**, Purity **0.3114**
+- AE+KMeans: Silhouette **0.1107**, NMI **0.1417**, ARI **0.0976**, Purity **0.3471**
 - DirectSpectral(KMeans): Sil **0.1526**, NMI **0.2194**, ARI **0.1185**, Purity **0.3943**
-- **CVAE(beta)+KMeans:** Sil **0.3434**, NMI **0.4197**, ARI **0.1697**, Purity **0.4471**
+- **CVAE(beta)+KMeans:** Sil **0.5240**, NMI **0.3741**, ARI **0.1589**, Purity **0.39**
 
 
